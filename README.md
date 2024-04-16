@@ -31,7 +31,11 @@ To install the Kubeland Desktop Client, follow these steps:
    ```
 
 ## Usage
-To run the application, execute:
+To run the application in development mode, execute:
+```bash
+mvn javafx:run
+```
+or from jar
 ```bash
 java -jar target/kubeland-1.0-SNAPSHOT.jar
 ```
